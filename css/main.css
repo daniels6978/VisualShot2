@@ -106,6 +106,7 @@ body {
 .header .container .header-nav__right nav ul li a {
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
   padding: 1rem 0;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
