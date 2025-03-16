@@ -621,6 +621,11 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.about_us_section .container .about_us_content .about_us_img img:hover {
+  scale: 1.1;
 }
 
 .portfolio_wrapper {

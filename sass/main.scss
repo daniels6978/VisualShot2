@@ -558,10 +558,10 @@ body {
           height: 100%;
           object-fit: cover;
           border-radius: 50px;
-          // transition: 0.3s;
-          // &:hover {
-          //   scale: 1.1;
-          // }
+          transition: 0.3s;
+          &:hover {
+            scale: 1.1;
+          }
         }
       }
     }
