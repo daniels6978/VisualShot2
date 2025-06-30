@@ -5,63 +5,48 @@ const totalSlides = slides.length;
 const images = [
   {
     src: "./img/farma/FRW_0607.jpg",
-    title: "Górski Krajobraz",
   },
   {
     src: "./img/farma/FRW_0618.jpg",
-    title: "Leśna Ścieżka",
   },
   {
     src: "./img/farma/FRW_0620.jpg",
-    title: "Jezioro o Zachodzie",
   },
   {
     src: "./img/farma/FRW_0802.jpg",
-    title: "Gwiezdne Niebo",
   },
   {
     src: "./img/farma/FRW_0811.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0824.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0836.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0859.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0860.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0866.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0868.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0870.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0902.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0920.jpg",
-    title: "Wybrzeże Oceanu",
   },
   {
     src: "./img/farma/FRW_0933.jpg",
-    title: "Wybrzeże Oceanu",
   },
 ];
 

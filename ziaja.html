@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="VisualShot to profesjonalne sesje wizerunkowe, produktowe i lifestylowe. Tworzymy treści wizualne, które wzmacniają markę i przyciągają odbiorców."
+    />
+    <meta
+      name="keywords"
+      content="fotografia, sesje zdjęciowe, zdjęcia produktowe, sesje wizerunkowe, fotografia Rzeszów, marketing wizualny, klipy promocyjne"
+    />
+    <title>VisualShot - Fotografia i wideo dla Twojej firmy</title>
+    <link rel="stylesheet" href="css/farma.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <script
+      src="https://kit.fontawesome.com/ce58a3376a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-nav">
+          <div class="header-logo">
+            <a href="index.html#"><img src="./img/logo.png" alt="" /></a>
+          </div>
+          <div class="header-nav__right">
+            <nav>
+              <ul>
+                <li><a href="index.html#">Home</a></li>
+                <li><a href="index.html##offer">Oferta</a></li>
+                <li><a href="index.html##about_us">O nas</a></li>
+                <li><a href="index.html##portfolio">Realizacje </a></li>
+                <li><a href="index.html##contact">Kontakt</a></li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/visualshotgroup/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61571084232082
+                  "
+                    target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="gallery-container">
+        <h2 class="gallery-title">Farma</h2>
+
+        <div class="slider-container">
+          <div class="slider-wrapper" id="sliderWrapper">
+            <div class="slide" onclick="openModal(0)">
+              <img src="./img/ziaja/FRW_1251.jpg" alt="" />
+            </div>
+
+            <div class="slide" onclick="openModal(1)">
+              <img src="./img/ziaja/FRW_1259.jpg" alt="" />
+            </div>
+
+            <div class="slide" onclick="openModal(2)">
+              <img src="./img/ziaja/FRW_1273.jpg" alt="" />
+            </div>
+
+            <div class="slide" onclick="openModal(3)">
+              <img src="./img/ziaja/FRW_1411.jpg" alt="" />
+            </div>
+
+            <div class="slide" onclick="openModal(4)">
+              <img src="./img/ziaja/FRW_1445.jpg" alt="" />
+            </div>
+            <div class="slide" onclick="openModal(5)">
+              <img src="./img/ziaja/FRW_2179.jpg" alt="" />
+            </div>
+            <div class="slide" onclick="openModal(6)">
+              <img src="./img/ziaja/FRW_2189.jpg" alt="" />
+            </div>
+            <div class="slide" onclick="openModal(7)">
+              <img src="./img/ziaja/FRW_2232.jpg" alt="" />
+            </div>
+            <div class="slide" onclick="openModal(8)">
+              <img src="./img/ziaja/FRW_2254.jpg" alt="" />
+            </div>
+          </div>
+
+          <button class="slider-nav prev" onclick="changeSlide(-1)">‹</button>
+          <button class="slider-nav next" onclick="changeSlide(1)">›</button>
+        </div>
+
+        <div class="slider-dots" id="sliderDots"></div>
+
+        <div class="thumbnails" id="thumbnails"></div>
+      </div>
+
+      <!-- Modal dla powiększonych zdjęć -->
+      <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content" onclick="event.stopPropagation()">
+          <img id="modalImage" src="" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer_container">
+        <hr />
+        <div class="footer_down">
+          <div class="footer_copy">
+            <p>VisualShot &copy; 2025</p>
+          </div>
+          <div class="footer_author">
+            <p>Designed by Gall</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/ziaja.js"></script>
+  </body>
+</html>
